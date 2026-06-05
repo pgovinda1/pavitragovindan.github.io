@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Service | Your Name</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div>
+        <h1>Your Name</h1>
+        <p class="subtitle">Your title, Department, University</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a class="active" href="service.html">Service</a>
+        <a href="files/cv.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container single-column">
+    <section class="card">
+      <h2>Service</h2>
+      <h3>Department and University Service</h3>
+      <ul>
+        <li>Committee or service role, Year.</li>
+        <li>Committee or service role, Year.</li>
+      </ul>
+
+      <h3>Professional Service</h3>
+      <ul>
+        <li>Referee service, journal/conference names.</li>
+        <li>Organizer, workshop/conference/session.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>&copy; <span id="year"></span> Your Name.</p></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

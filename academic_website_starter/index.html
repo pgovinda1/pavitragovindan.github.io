@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Academic Website</title>
+  <meta name="description" content="Academic website with research, teaching, service, and CV.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div>
+        <h1>Your Name</h1>
+        <p class="subtitle">Your title, Department, University</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <a class="active" href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="service.html">Service</a>
+        <a href="files/cv.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content-grid">
+    <section class="card main-card">
+      <h2>About</h2>
+      <p>
+        I am an academic in [field/department] at [university]. My research focuses on
+        [brief description of your research areas].
+      </p>
+      <p>
+        Before joining [university], I [brief background: Ph.D., previous position, etc.].
+      </p>
+      <p>
+        You can find my current CV here:
+        <a href="files/cv.pdf">Download CV</a>.
+      </p>
+    </section>
+
+    <aside class="card sidebar">
+      <div class="profile-placeholder" aria-label="Profile photo placeholder">Photo</div>
+      <h2>Contact</h2>
+      <p><strong>Email:</strong><br><a href="mailto:you@example.edu">you@example.edu</a></p>
+      <p><strong>Office:</strong><br>Building, Room Number</p>
+      <p><strong>Links:</strong><br>
+        <a href="#">Google Scholar</a><br>
+        <a href="#">ORCID</a><br>
+        <a href="#">LinkedIn</a>
+      </p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name. Last updated: June 2026.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
