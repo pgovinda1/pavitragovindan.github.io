@@ -1,0 +1,157 @@
+:root {
+  --background: #f7f7f5;
+  --card: #ffffff;
+  --text: #222222;
+  --muted: #666666;
+  --border: #dddddd;
+  --accent: #5b1f1f;
+  --accent-light: #f3e9e9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--text);
+  background: var(--background);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(1050px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.site-header {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 28px 0 18px;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: end;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.subtitle,
+.muted {
+  color: var(--muted);
+}
+
+.subtitle {
+  margin: 6px 0 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+nav a {
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+nav a.active,
+nav a:hover,
+nav a:focus {
+  background: var(--accent-light);
+  text-decoration: none;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 24px;
+  padding: 32px 0;
+}
+
+.single-column {
+  padding: 32px 0;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 26px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.main-card h2,
+.card h2 {
+  margin-top: 0;
+}
+
+.sidebar {
+  align-self: start;
+}
+
+.profile-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--accent-light);
+  color: var(--muted);
+  margin-bottom: 22px;
+  border: 1px dashed var(--border);
+}
+
+.entry {
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+  margin-top: 18px;
+}
+
+.entry h3,
+.entry h4 {
+  margin-bottom: 4px;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  padding: 22px 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 760px) {
+  .header-grid,
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    margin-top: 8px;
+  }
+}
