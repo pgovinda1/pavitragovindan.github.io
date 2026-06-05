@@ -60,6 +60,15 @@ h1 {
   font-size: 2.2rem;
 }
 
+h2 {
+  font-size: 1.55rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 28px;
+}
+
 .subtitle,
 .muted {
   color: var(--muted);
@@ -115,16 +124,12 @@ nav a:focus {
   align-self: start;
 }
 
-.profile-placeholder {
+.profile-photo {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  display: grid;
-  place-items: center;
+  display: block;
   border-radius: 12px;
-  background: var(--accent-light);
-  color: var(--muted);
   margin-bottom: 22px;
-  border: 1px dashed var(--border);
+  border: 1px solid var(--border);
 }
 
 .entry {
@@ -133,9 +138,23 @@ nav a:focus {
   margin-top: 18px;
 }
 
-.entry h3,
-.entry h4 {
-  margin-bottom: 4px;
+.publication-list,
+.teaching-list {
+  padding-left: 1.2rem;
+}
+
+.publication-list li,
+.teaching-list li {
+  margin-bottom: 14px;
+}
+
+.pub-status,
+.course-dates {
+  color: var(--muted);
+}
+
+.teaching-list strong {
+  font-weight: 700;
 }
 
 .site-footer {

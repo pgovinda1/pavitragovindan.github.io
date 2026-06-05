@@ -1,28 +1,22 @@
-# Academic Website Starter
+# Pavitra Govindan Academic Website
 
 This is a simple academic website designed for GitHub Pages.
 
 ## Files
 
-- `index.html`: About page
-- `research.html`: Research page
-- `teaching.html`: Teaching page
-- `service.html`: Service page
+- `index.html`: About page with headshot and contact information
+- `research.html`: Published papers, working papers, and works in progress
+- `teaching.html`: Courses taught at the University of Utah and Brown University
 - `assets/style.css`: Website styling
-- `files/cv.pdf`: Put your CV PDF here and name it `cv.pdf`
+- `assets/PavitraGovindan_Headshot.jpeg`: Homepage headshot
+- `files/cv.pdf`: Current CV linked from the website
 
-## How to publish on GitHub Pages
+## How to update on GitHub
 
-1. Create a GitHub account if you do not already have one.
-2. Create a new public repository named `USERNAME.github.io`, replacing `USERNAME` with your GitHub username.
-3. Unzip this folder on your computer.
-4. Upload all files and folders to the repository.
-5. Go to Settings > Pages.
-6. Under Build and deployment, choose Deploy from a branch.
-7. Choose the `main` branch and the root folder.
-8. Save.
-9. Your website should appear at `https://USERNAME.github.io`.
+1. Unzip this folder on your computer.
+2. Open your GitHub repository.
+3. Upload the contents of this folder to the root of the repository.
+4. Choose "Commit directly to the main branch."
+5. Click "Commit changes."
 
-## How to update
-
-Edit the relevant `.html` file in GitHub's browser editor, then commit the change.
+Your website should publish through GitHub Pages at `https://YOURUSERNAME.github.io`.
