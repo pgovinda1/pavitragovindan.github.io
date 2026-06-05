@@ -11,6 +11,10 @@ This is a simple academic website designed for GitHub Pages.
 - `assets/PavitraGovindan_Headshot.jpeg`: Homepage headshot
 - `files/cv.pdf`: Current CV linked from the website
 
+## Notes
+
+The email address on the homepage is written in an obfuscated form to reduce automated scraping.
+
 ## How to update on GitHub
 
 1. Unzip this folder on your computer.
